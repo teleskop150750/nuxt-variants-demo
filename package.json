@@ -1,0 +1,10 @@
+{
+  "name": "@sample/root",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@sample/tsconfig": "workspace:^",
+    "@types/node": "^20.11.7",
+    "typescript": "^5.3.3"
+  }
+}
