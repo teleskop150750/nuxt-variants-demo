@@ -3,7 +3,6 @@
 </script>
 
 <template>
-  <Html lang="ru"></Html>
   <div class="page">
     <div class="page__header">
       <div class="demo-box">
