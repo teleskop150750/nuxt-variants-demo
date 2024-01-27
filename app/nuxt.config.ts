@@ -2,6 +2,14 @@
 export default defineNuxtConfig({
   debug: true,
   devtools: { enabled: true },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru',
+      },
+      title: 'Sample',
+    },
+  },
   modules: [
     [
       '~/modules/component-variants', {

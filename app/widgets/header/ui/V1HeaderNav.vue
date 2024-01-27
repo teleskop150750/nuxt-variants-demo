@@ -11,3 +11,10 @@
     </div>
   </nav>
 </template>
+
+<style>
+.nav__list {
+  display: flex;
+  gap: 15px;
+}
+</style>

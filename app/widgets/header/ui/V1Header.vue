@@ -20,13 +20,11 @@ defineSlots<Slots>()
     </div>
 
     <div class="header__bottom">
-      <div class="header__nav">
-        <V1HeaderNav>
-          <HeaderLink />
-          <HeaderLink />
-          <HeaderLink />
-        </V1HeaderNav>
-      </div>
+      <V1HeaderNav class="header__nav">
+        <HeaderLink />
+        <HeaderLink />
+        <HeaderLink />
+      </V1HeaderNav>
 
       <div class="header__actions">
         <slot name="actions"></slot>

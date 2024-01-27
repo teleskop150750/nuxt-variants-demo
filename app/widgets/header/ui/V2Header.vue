@@ -4,7 +4,7 @@ import { defaultProps } from "./Header.model.ts";
 
 withDefaults(defineProps<Props>(), defaultProps);
 
-defineSlots<Slots>()
+defineSlots<Slots>();
 </script>
 
 <template>
@@ -20,13 +20,11 @@ defineSlots<Slots>()
     </div>
 
     <div class="header__bottom">
-      <div class="header__nav">
-        <V2HeaderNav>
-          <HeaderLink />
-          <HeaderLink />
-          <HeaderLink />
-        </V2HeaderNav>
-      </div>
+      <V2HeaderNav class="header__nav">
+        <HeaderLink />
+        <HeaderLink />
+        <HeaderLink />
+      </V2HeaderNav>
 
       <div class="header__actions">
         <slot name="actions"></slot>
