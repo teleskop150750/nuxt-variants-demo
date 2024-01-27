@@ -39,7 +39,7 @@
             <HeaderLogo />
           </template>
 
-          <template #action>
+          <template #actions>
             <HeaderButtonMenu />
           </template>
         </Header>
