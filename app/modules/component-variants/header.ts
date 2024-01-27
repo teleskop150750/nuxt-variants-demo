@@ -10,7 +10,7 @@ const HeaderButtonMenu  = {
   V1: 'V1',
   V2: 'V2',
   V3: 'V1',
-} as const
+} as const satisfies Record<string, HeaderVariant>
 
 export function addHeader(resolver: Resolver, variant: HeaderVariant) {
   if (!variants.has(variant)) {
