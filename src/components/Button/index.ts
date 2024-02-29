@@ -1,8 +1,8 @@
 export {
   type NButtonProps,
-  type  NButtonEmits,
-  type  NButtonExpose,
-  type  NButtonSlots,
+  type NButtonEmits,
+  type NButtonExpose,
+  type NButtonSlots,
   useContext,
   createContext,
 } from './Button.model.ts'
